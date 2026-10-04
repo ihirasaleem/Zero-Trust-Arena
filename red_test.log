@@ -1,0 +1,7 @@
+[red] READY - hub http://127.0.0.1:9000, proxy http://127.0.0.1:8080, tag 426f13, target checked as lab-only
+[red] LLM probe ordering: OFF (fixed catalog order)
+[red] reporting attack_event to judge-426f13
+[red-recon] sent recon_report (6 endpoints) -> 200
+[red-analyst] sent findings (3 leads) -> 200
+[red-planner] fired sqli_login (1 req) -> judge:200
+[red-planner] fired brute_login (6 req) -> judge:200

@@ -1,0 +1,10 @@
+[blue] READY - hub http://127.0.0.1:9000, proxy http://127.0.0.1:8080, tag 56a6c7
+[blue] LLM second opinion: ON (groq)
+[monitor] watching the proxy log from entry 2
+[monitor] sent 6 log entries to the detector
+[detector] ALERT brute_force (high, rule) from 127.0.0.1: 5 failed logins in 30s
+[patch] PATCHED brute_force from 127.0.0.1: ip='127.0.0.1'
+[monitor] sent 2 log entries to the detector
+[detector] ALERT xss (high, rule) from 127.0.0.1: xss signature in request
+[patch] PATCHED xss from 127.0.0.1: ip='127.0.0.1', contains='<script', contains='onerror='
+[patch] ignored a message from evil-detector-56a6c7 (UNPINNED_SENDER)

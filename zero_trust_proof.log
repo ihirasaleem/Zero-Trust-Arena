@@ -1,0 +1,18 @@
+
+=== ZeroTrust hub on http://127.0.0.1:9000  (saved to hub_port.txt) ===
+
+INFO:     Started server process [6044]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:9000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:30854 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30855 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30856 - "POST /register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30857 - "GET /registry HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30858 - "POST /send HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30859 - "POST /send HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:30860 - "POST /send HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:30861 - "POST /send HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:30862 - "POST /send HTTP/1.1" 403 Forbidden
+INFO:     127.0.0.1:30863 - "GET /audit/verify HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30864 - "GET /events?since=-1 HTTP/1.1" 200 OK
